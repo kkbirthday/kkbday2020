@@ -77,11 +77,12 @@ body {
   color: #2e2c2c;
   width: 220px;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 25px;
   padding-left: 15px;
-  font-size: 13px;
+  font-size: 20px;
   font-family: 'Varta', sans-serif;
 }
+
 
 @media (max-width: 479px) {
   .banner {

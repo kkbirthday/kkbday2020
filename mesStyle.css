@@ -1,0 +1,43 @@
+body {
+  background-color: #ffda6a;
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+
+.topMessage {
+  font-size: 20px;
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media (max-width: 479px) {
+  .banner {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .topMessage {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
